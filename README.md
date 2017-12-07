@@ -9,7 +9,7 @@ Mined and investigated unstructured Facebook user’s posts with Vietnamese lang
 1. Mined unstructured FB user's posts (user's age need to be present)
 2. Preprocessed to categorize age into classes (A: 18-23, B: 24-30, C: 30-40, D: 40+) 
 3. Investigate class's distributrion and preprocess posts: <br /> 
-        $\qquad$a) Replace emojis with " emoji_icon " to remove bias toward a specific emoji <br />
+        \qquad a) Replace emojis with " emoji_icon " to remove bias toward a specific emoji <br />
         b) Tokenize Vietnamese words <br />
         c) Remove Vietnamese stop-words  <br />
         d) Remove numbers and punctuations  <br />
