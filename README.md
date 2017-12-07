@@ -2,12 +2,22 @@
 
 ### Description: 
 
-Mined and investigated unstructured Facebook user’s posts with Vietnamese language processing with traditional ML methods, convolutional neural networks, and LSTM to predict the user’s age. Achieved accuracy = 81.4%. 
+Mined and investigated unstructured Facebook user’s posts with Vietnamese language processing while comparing traditional ML methods with deep learning methods such as convolutional neural networks, and LSTM to predict the user’s age. Achieved accuracy = 81.4%. 
+
+### Dataset Overview:
+
+Supervised classification learning problem. Text -> Age Category (A: 18-23, B: 24-30, C: 30-40, D: 40+)
+
+Overall: 22694 entries  <br /> 
+A: 5465 entries (24.08%) <br /> 
+B: 7837 entries (34.53%) <br /> 
+C: 3957 entries (17.44%) <br /> 
+D: 896 entries (3.95%)
 
 ### Steps:
 
 1. Mined unstructured FB user's posts (user's age need to be present)
-2. Preprocessed to categorize age into classes (A: 18-23, B: 24-30, C: 30-40, D: 40+) 
+2. Preprocessed to categorize age into classes () 
 3. Investigate class's distributrion and preprocess posts: <br /> 
         <space> a) Replace emojis with " emoji_icon " to remove bias toward a specific emoji <br />
         <space> b) Tokenize Vietnamese words <br />
