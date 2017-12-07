@@ -16,15 +16,15 @@ Mined and investigated unstructured Facebook user’s posts with Vietnamese lang
         e) Collapse all posts into one vector 
 4. Apply learners: <br />
         a) traditional machine learning model: <br />
-            &nbsp;&nbsp;&nbsp;i. vectorize the words by frequency <br />
-            &nbsp;&nbsp;&nbsp;ii. max absolute scaling <br />
-            &nbsp;&nbsp;&nbsp;iii. apply SVM - accuracy: 50% <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;i. vectorize the words by frequency <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;ii. max absolute scaling <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;iii. apply SVM - accuracy: 50% <br />
         b) deep learning model: <br />
-            &nbsp;&nbsp;&nbsp;i. only take the vector that is more than 200 items <br />
-            &nbsp;&nbsp;&nbsp;ii. padding vectors up to 800 <br />
-            &nbsp;&nbsp;&nbsp;iii. apply CNN model: <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- word2vec (200 features and 15 contexts) :  60%
+            &nbsp;&nbsp;&nbsp;&nbsp;i. only take the vector that is more than 200 items <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;ii. padding vectors up to 800 <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;iii. apply CNN model: <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- word2vec (200 features and 15 contexts) :  60%
 
 
 ### Files:
