@@ -16,11 +16,11 @@ Mined and investigated unstructured Facebook user’s posts with Vietnamese lang
         e) Collapse all posts into one vector 
 4. Apply learners: <br />
         a) traditional machine learning model: <br />
-            i. vectorize the words by frequency <br />
-            ii. max absolute scaling <br />
+            &nbsp;&nbsp;&nbsp;i. vectorize the words by frequency <br />
+            &nbsp;&nbsp;&nbsp;ii. max absolute scaling <br />
             iii. apply SVM - accuracy: 50% <br />
         b) deep learning model: <br />
-            i. only take the vector that is more than 200 items <br />
+            &nbsp;&nbsp;&nbsp;i. only take the vector that is more than 200 items <br />
             ii. padding vectors up to 800 <br />
             iii. apply CNN model: <br />
                 - embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  <br />
