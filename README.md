@@ -9,21 +9,21 @@ Mined and investigated unstructured Facebook user’s posts with Vietnamese lang
 1. Mined unstructured FB user's posts (user's age need to be present)
 2. Preprocessed to categorize age into classes (A: 18-23, B: 24-30, C: 30-40, D: 40+) 
 3. Investigate class's distributrion and preprocess posts 
-    a) Replace emojis with " emoji_icon " to remove bias toward a specific emoji
-    b) Tokenize Vietnamese words
-    c) Remove Vietnamese stop-words
-    d) Remove numbers and punctuations 
+    a) Replace emojis with " emoji_icon " to remove bias toward a specific emoji <br />
+    b) Tokenize Vietnamese words <br />
+    c) Remove Vietnamese stop-words  <br />
+    d) Remove numbers and punctuations  <br />
     d) Collapse all posts into one vector 
 4. Apply learners
-    a) traditional machine learning model: 
-        i. vectorize the words by frequency
-        ii. max absolute scaling
-        iii. apply SVM - accuracy: 50%
-    b) deep learning model:
-        i. only take the vector that is more than 200 items
-        ii. padding vectors up to 800 
-        iii. apply CNN model:
-            - embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  
+    a) traditional machine learning model: <br />
+        i. vectorize the words by frequency <br />
+        ii. max absolute scaling <br />
+        iii. apply SVM - accuracy: 50% <br />
+    b) deep learning model: <br />
+        i. only take the vector that is more than 200 items <br />
+        ii. padding vectors up to 800 <br />
+        iii. apply CNN model: <br />
+            - embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  <br />
             - word2vec (200 features and 15 contexts) :  60%
 
 
