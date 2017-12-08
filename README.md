@@ -33,7 +33,7 @@ D: 896 entries (3.95%)
             &nbsp;&nbsp;&nbsp;&nbsp;i. only take the vector that is more than 200 items <br />
             &nbsp;&nbsp;&nbsp;&nbsp;ii. padding vectors up to 800 <br />
             &nbsp;&nbsp;&nbsp;&nbsp;iii. apply CNN model: <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- embedding layer: 71% (I remember that the accuracy was higher - around 80 % - but cannot get the same one now)  <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- embedding layer: 71% (I remember that the accuracy back in the summer was higher - around 80 % - need to check again)  <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- word2vec (200 features and 15 contexts) :  60%
 
 
